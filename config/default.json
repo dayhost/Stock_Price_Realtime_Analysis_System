@@ -1,0 +1,10 @@
+{
+	"redis":{
+		"host":"localhost",
+		"port":6379,
+		"channel":"stock_data"
+	},
+	"web":{
+		"port":8080
+	}
+}

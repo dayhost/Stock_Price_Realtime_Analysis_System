@@ -1,0 +1,19 @@
+</!DOCTYPE html>
+<html>
+<script type="text/javascript" src="smoothie.js"></script>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="socket.io.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<head>
+	<title>Show Chart</title>
+</head>
+<body>
+	<h1>Stock Chart</h1>
+	<form action="form_action.asp" method="get">
+  		ADD SYMBOL <input type="text" id="stock_symbol" />
+  		<input type="button" id="submit_stock" value="Add Stock" />
+	</form>
+    <canvas id="mycanvas" width="1000" height="500"></canvas>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
